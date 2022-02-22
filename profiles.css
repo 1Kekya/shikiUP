@@ -1,0 +1,167 @@
+@media (min-width: 960px){
+.l-page {
+    background: none;
+}  
+  #profiles_show .l-page {
+    margin-top: 268px;
+}
+  
+.p-profiles .profile-head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+  
+  .p-profiles .profile-head .c-brief {
+    order: 0;
+    display: flex;
+    padding: 12px 24px;
+    text-align: left;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: calc(100% + 48px);
+    border: 1px solid var(--color-border);
+    border-top: 0;
+    margin-left: -24px;
+    margin-right: -24px;
+    margin-bottom: 2rem;
+    background-color: var(--color-surface);
+    border-bottom-left-radius: var(--border-rounded);
+    border-bottom-right-radius: var(--border-rounded);
+}
+  
+  .p-profiles .profile-head .c-brief .avatar {
+    align-self: flex-end;
+    min-width: 184px;
+    order: 2;
+    margin-right: calc(50% - 92px);
+}
+  
+  .p-profiles .profile-head .c-brief .avatar img {
+    vertical-align: top;
+    box-shadow: 0 0 0 5px var(--color-link);
+}
+  
+  .p-profiles .profile-head .c-info {
+    order: 1;
+    width: calc(77% - 16px);
+    margin-right: 0;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface);
+    margin-left: -24px;
+    padding: 0 24px;
+    border-radius: var(--border-rounded);
+}
+  
+  .p-profiles .profile-head .c-history.x3 {
+    order: 2;
+    width: calc(23% + 32px);
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface);
+    margin-right: -24px;
+    padding: 0 24px;
+    border-radius: var(--border-rounded);
+}
+  
+  .p-profiles .profile-head .c-history .entry:last-child {
+    display: none;
+}
+  .p-profiles .profile-head .c-history .entry:nth-child(2)::before {
+    display: none;
+}
+  
+  .p-profiles .profile-head::before {
+    height: 424px;
+    margin: -252px -24px 0;
+    width: calc(100% + 48px);
+    border: 1px solid var(--color-border);
+    border-bottom: 0;
+    border-top-left-radius: var(--border-rounded);
+    border-top-right-radius: var(--border-rounded);
+}
+  
+  .p-profiles .profile-content>.cc-2 .c-left {
+    position: relative;
+    width: calc(77% - 16px);
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    z-index: 1;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface);
+    margin-left: -24px;
+    padding: 0 24px 12px;
+    border-radius: var(--border-rounded);
+}
+  
+  .p-profiles .profile-content .c-right:last-child {
+    float: none;
+    margin: 0 -24px;
+    width: calc(100% + 48px);
+}
+  
+  .p-profiles .profile-content>.cc-2 .c-right .cc-2a {
+    width: calc(23% + 20px);
+    margin-left: 0;
+    overflow: hidden;
+    margin-bottom: 0 !important;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface);
+    margin-right: -24px;
+    padding: 0 24px;
+    border-radius: var(--border-rounded);
+    min-height: 325px;
+}
+  
+  .p-profiles .profile-content .c-right>.block:last-child {
+    clear: both;
+    padding: 0 24px 12px;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface);
+    border-radius: var(--border-rounded);
+    margin: 0 !important;
+}
+  
+  .block.achievements {
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface);
+    margin: 0 -24px;
+    padding: 0 24px 12px;
+    border-radius: var(--border-rounded);
+    margin-bottom: 2rem;
+}
+  
+  .p-profiles .profile-content>.cc-2 {
+    margin-bottom: 2rem !important;
+}
+  
+  .cc-3>.c-column {
+    margin-bottom: 0;
+}
+  
+  .p-profiles .profile-content .about {
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface);
+    margin: 0 -24px;
+    padding: 0 24px 12px;
+    border-radius: var(--border-rounded);
+    margin-bottom: 2rem !important;
+}
+  
+  #profiles_show .block:last-child{
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface);
+    margin: 0 -24px;
+    padding: 0 24px 12px;
+    border-radius: var(--border-rounded);
+    margin-bottom: 2rem;
+  }
+}
+
+.b-catalog_entry .cover .image-cutter{max-width:none!important;max-height:none!important}.b-catalog_entry .cover .image-cutter::before{content:'';display:block;padding-bottom:155.5555%}.b-catalog_entry .cover .image-cutter img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center top}
