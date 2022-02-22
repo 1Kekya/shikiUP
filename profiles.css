@@ -1,6 +1,6 @@
 @media (min-width: 960px){
 .l-page {
-    background: none;
+    background: none !important;
 }  
   #profiles_show .l-page {
     margin-top: 268px;
